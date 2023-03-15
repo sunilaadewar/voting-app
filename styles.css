@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #020e1e;
+    color: white;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+    align-items: center;
+}
+
+.container {
+    margin-top: 3rem;
+    padding: 0 1rem 3rem;
+    border: 2px solid transparent;
+    border-radius: 1rem;
+}
+
+.container-heading {
+    padding: 0 0.4rem;
+    border-left: 4px solid #3cbfaf;
+    margin: 1.5rem 0;
+}
+
+.card-wrapper {
+    display: flex;
+    flex-direction: row;
+    column-gap: 2rem;
+}
+
+.card-wrapper .card {
+    position: relative;
+    padding-bottom: 4rem;
+    cursor: pointer;
+    border: 2px solid transparent;
+    box-shadow: 2px 3px 10px 1px rgba(255, 255, 255, 0.74);
+}
+
+.card-wrapper .card .artist-name {
+    padding: 0.6rem;
+}
+
+.card-wrapper .card .song-name {
+    padding: 0 0.6rem;
+}
+
+.card-wrapper .card .play-icon {
+    background-color: white;
+    color: #020e1e;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    bottom: 105px;
+    right: 15px;
+}
+
+.card-wrapper .card .selected-text-none {
+    position: absolute;
+    bottom: 0;
+    padding: 6px 68px;
+    background-color: tomato;
+    display: none;
+}
+
+/*container-border-rock-artist*/
+
+.container-rock-artist {
+    border: 2px solid red;
+
+}
+
+/*card border*/
+.card-border {
+    border: 2px solid #ef7124 !important;
+
+}
+
+/*card bottom text*/
+.selected-text-block {
+    display: block !important;
+}
+
+.require-text-container {
+    height: 70px;
+}
+
+.required-text {
+    padding-top: 1.5rem;
+    text-align: center;
+    color: red;
+    display: none;
+}
+
+.required-text-block {
+    display: block;
+}
+
+button {
+    padding: 1.5rem 2rem;
+    background-color: #3cbfaf;
+    border-radius: 0.5rem;
+    margin-bottom: 5rem;
+    cursor: pointer;
+}

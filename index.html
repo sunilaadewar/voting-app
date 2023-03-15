@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Voting App</title>
+    <link rel="stylesheet"
+          href="styles.css">
+    <script src="https://kit.fontawesome.com/a646b082d6.js"
+            crossorigin="anonymous"></script>
+</head>
+<body>
+
+
+<main class="main">
+
+    <!--Best Rock Artist-->
+    <div class="container"
+         id="container-border-rock-artist">
+        <h3 class="container-heading">Best Rock Artist</h3>
+        <div class="card-wrapper">
+
+            <div class="card"
+                 id="rockArtist-card1"
+                 onclick="rockArtistFn('rockArtist-card1','bottom-text-card1')">
+                <img src="../assets/picture.png"
+                     class="card-image"
+                     alt=""
+                     height="200"
+                     width="200">
+                <p class="artist-name">Asharf</p>
+                <p class="song-name">
+                    <strong>Song -</strong>
+                    Shakira Shakira
+                </p>
+                <div class="play-icon"><i class="fa-solid fa-play"></i></div>
+                <div class="selected-text-none"
+                     id="bottom-text-card1"><strong>Selected</strong>
+                </div>
+            </div>
+
+            <div class="card"
+                 id="rockArtist-card2"
+                 onclick="rockArtistFn('rockArtist-card2','bottom-text-card2')">
+                <img src="../assets/picture.png"
+                     class="card-image"
+                     alt=""
+                     height="200"
+                     width="200">
+                <p class="artist-name">Asharf</p>
+                <p class="song-name">
+                    <strong>Song -</strong>
+                    Shakira Shakira
+                </p>
+                <div class="play-icon"><i class="fa-solid fa-play"></i></div>
+                <div class="selected-text-none"
+                     id="bottom-text-card2"><strong>Selected</strong>
+                </div>
+            </div>
+
+            <div class="card"
+                 id="rockArtist-card3"
+                 onclick="rockArtistFn('rockArtist-card3','bottom-text-card3')">
+                <img src="../assets/picture.png"
+                     class="card-image"
+                     alt=""
+                     height="200"
+                     width="200">
+                <p class="artist-name">Asharf</p>
+                <p class="song-name">
+                    <strong>Song -</strong>
+                    Shakira Shakira
+                </p>
+                <div class="play-icon"><i class="fa-solid fa-play"></i></div>
+                <div class="selected-text-none"
+                     id="bottom-text-card3"><strong>Selected</strong>
+                </div>
+            </div>
+
+            <div class="card"
+                 id="rockArtist-card4"
+                 onclick="rockArtistFn('rockArtist-card4','bottom-text-card4')">
+                <img src="../assets/picture.png"
+                     class="card-image"
+                     alt=""
+                     height="200"
+                     width="200">
+                <p class="artist-name">Asharf</p>
+                <p class="song-name">
+                    <strong>Song -</strong>
+                    Shakira Shakira
+                </p>
+                <div class="play-icon"><i class="fa-solid fa-play"></i></div>
+                <div class="selected-text-none"
+                     id="bottom-text-card4"><strong>Selected</strong>
+                </div>
+            </div>
+
+            <div class="card"
+                 id="rockArtist-card5"
+                 onclick="rockArtistFn('rockArtist-card5','bottom-text-card5')">
+                <img src="../assets/picture.png"
+                     class="card-image"
+                     alt=""
+                     height="200"
+                     width="200">
+                <p class="artist-name">Asharf</p>
+                <p class="song-name">
+                    <strong>Song -</strong>
+                    Shakira Shakira
+                </p>
+                <div class="play-icon"><i class="fa-solid fa-play"></i></div>
+                <div class="selected-text-none"
+                     id="bottom-text-card5"><strong>Selected</strong>
+                </div>
+            </div>
+
+        </div>
+        <div class="require-text-container">
+            <div class="required-text"
+                 id="rock-artist-required-text">Please select at least one item from each category before submitting
+            </div>
+        </div>
+    </div>
+
+    <!--Best Electronica Artist-->
+    <div class="container"
+         id="container-border-electronica-artist">
+        <h3 class="container-heading">Best Electronica Artist</h3>
+        <div class="card-wrapper">
+
+            <div class="card"
+                 id="electronicaArtist-card1"
+                 onclick="electronicaArtistFn('electronicaArtist-card1','ele_bottom-text-card1')">
+                <img src="../assets/picture.png"
+                     class="card-image"
+                     alt=""
+                     height="200"
+                     width="200">
+                <p class="artist-name">Asharf</p>
+                <p class="song-name">
+                    <strong>Song -</strong>
+                    Shakira Shakira
+                </p>
+                <div class="play-icon"><i class="fa-solid fa-play"></i></div>
+                <div class="selected-text-none"
+                     id="ele_bottom-text-card1"><strong>Selected</strong>
+                </div>
+            </div>
+
+            <div class="card"
+                 id="electronicaArtist-card2"
+                 onclick="electronicaArtistFn('electronicaArtist-card2','ele_bottom-text-card2')">
+                <img src="../assets/picture.png"
+                     class="card-image"
+                     alt=""
+                     height="200"
+                     width="200">
+                <p class="artist-name">Asharf</p>
+                <p class="song-name">
+                    <strong>Song -</strong>
+                    Shakira Shakira
+                </p>
+                <div class="play-icon"><i class="fa-solid fa-play"></i></div>
+                <div class="selected-text-none"
+                     id="ele_bottom-text-card2"><strong>Selected</strong>
+                </div>
+            </div>
+
+            <div class="card"
+                 id="electronicaArtist-card3"
+                 onclick="electronicaArtistFn('electronicaArtist-card3','ele_bottom-text-card3')">
+                <img src="../assets/picture.png"
+                     class="card-image"
+                     alt=""
+                     height="200"
+                     width="200">
+                <p class="artist-name">Asharf</p>
+                <p class="song-name">
+                    <strong>Song -</strong>
+                    Shakira Shakira
+                </p>
+                <div class="play-icon"><i class="fa-solid fa-play"></i></div>
+                <div class="selected-text-none"
+                     id="ele_bottom-text-card3"><strong>Selected</strong>
+                </div>
+            </div>
+
+            <div class="card"
+                 id="electronicaArtist-card4"
+                 onclick="electronicaArtistFn('electronicaArtist-card4','ele_bottom-text-card4')">
+                <img src="../assets/picture.png"
+                     class="card-image"
+                     alt=""
+                     height="200"
+                     width="200">
+                <p class="artist-name">Asharf</p>
+                <p class="song-name">
+                    <strong>Song -</strong>
+                    Shakira Shakira
+                </p>
+                <div class="play-icon"><i class="fa-solid fa-play"></i></div>
+                <div class="selected-text-none"
+                     id="ele_bottom-text-card4"><strong>Selected</strong>
+                </div>
+            </div>
+
+            <div class="card"
+                 id="electronicaArtist-card5"
+                 onclick="electronicaArtistFn('electronicaArtist-card5','ele_bottom-text-card5')">
+                <img src="../assets/picture.png"
+                     class="card-image"
+                     alt=""
+                     height="200"
+                     width="200">
+                <p class="artist-name">Asharf</p>
+                <p class="song-name">
+                    <strong>Song -</strong>
+                    Shakira Shakira
+                </p>
+                <div class="play-icon"><i class="fa-solid fa-play"></i></div>
+                <div class="selected-text-none"
+                     id="ele_bottom-text-card5"><strong>Selected</strong>
+                </div>
+            </div>
+        </div>
+        <div class="require-text-container">
+            <div class="required-text"
+                 id="electronica-artist-required-text">Please select at least one item from each category before
+                submitting
+            </div>
+        </div>
+    </div>
+
+    <!--Best Music Vide-->
+    <div class="container"
+         id="container-border-music-video">
+        <h3 class="container-heading">Best Music Video</h3>
+        <div class="card-wrapper">
+
+            <div class="card"
+                 id="music-video-card1"
+                 onclick="musicVideoFn('music-video-card1','music_bottom-text-card1')">
+                <img src="../assets/picture.png"
+                     class="card-image"
+                     alt=""
+                     height="200"
+                     width="200">
+                <p class="artist-name">Asharf</p>
+                <p class="song-name">
+                    <strong>Song -</strong>
+                    Shakira Shakira
+                </p>
+                <div class="play-icon"><i class="fa-solid fa-play"></i></div>
+                <div class="selected-text-none"
+                     id="music_bottom-text-card1"><strong>Selected</strong>
+                </div>
+            </div>
+
+            <div class="card"
+                 id="music-video-card2"
+                 onclick="musicVideoFn('music-video-card2','music_bottom-text-card2')">
+                <img src="../assets/picture.png"
+                     class="card-image"
+                     alt=""
+                     height="200"
+                     width="200">
+                <p class="artist-name">Asharf</p>
+                <p class="song-name">
+                    <strong>Song -</strong>
+                    Shakira Shakira
+                </p>
+                <div class="play-icon"><i class="fa-solid fa-play"></i></div>
+                <div class="selected-text-none"
+                     id="music_bottom-text-card2"><strong>Selected</strong>
+                </div>
+            </div>
+
+            <div class="card"
+                 id="music-video-card3"
+                 onclick="musicVideoFn('music-video-card3','music_bottom-text-card3')">
+                <img src="../assets/picture.png"
+                     class="card-image"
+                     alt=""
+                     height="200"
+                     width="200">
+                <p class="artist-name">Asharf</p>
+                <p class="song-name">
+                    <strong>Song -</strong>
+                    Shakira Shakira
+                </p>
+                <div class="play-icon"><i class="fa-solid fa-play"></i></div>
+                <div class="selected-text-none"
+                     id="music_bottom-text-card3"><strong>Selected</strong>
+                </div>
+            </div>
+
+            <div class="card"
+                 id="music-video-card4"
+                 onclick="musicVideoFn('music-video-card4','music_bottom-text-card4')">
+                <img src="../assets/picture.png"
+                     class="card-image"
+                     alt=""
+                     height="200"
+                     width="200">
+                <p class="artist-name">Asharf</p>
+                <p class="song-name">
+                    <strong>Song -</strong>
+                    Shakira Shakira
+                </p>
+                <div class="play-icon"><i class="fa-solid fa-play"></i></div>
+                <div class="selected-text-none"
+                     id="music_bottom-text-card4"><strong>Selected</strong>
+                </div>
+            </div>
+
+            <div class="card"
+                 id="music-video-card5"
+                 onclick="musicVideoFn('music-video-card5','music_bottom-text-card5')">
+                <img src="../assets/picture.png"
+                     class="card-image"
+                     alt=""
+                     height="200"
+                     width="200">
+                <p class="artist-name">Asharf</p>
+                <p class="song-name">
+                    <strong>Song -</strong>
+                    Shakira Shakira
+                </p>
+                <div class="play-icon"><i class="fa-solid fa-play"></i></div>
+                <div class="selected-text-none"
+                     id="music_bottom-text-card5"><strong>Selected</strong>
+                </div>
+            </div>
+        </div>
+        <div class="require-text-container">
+            <div class="required-text"
+                 id="music-required-text">Please select at least one item from each category before submitting
+            </div>
+        </div>
+    </div>
+
+    <!--Best Young Indie Artist-->
+    <div class="container"
+         id="container-border-young-artist">
+        <h3 class="container-heading">Best Young Indie Artist</h3>
+        <div class="card-wrapper">
+
+            <div class="card"
+                 id="young-artist-card1"
+                 onclick="youngArtistFn('young-artist-card1','young-artist-text-card1')">
+                <img src="../assets/picture.png"
+                     class="card-image"
+                     alt=""
+                     height="200"
+                     width="200">
+                <p class="artist-name">Asharf</p>
+                <p class="song-name">
+                    <strong>Song -</strong>
+                    Shakira Shakira
+                </p>
+                <div class="play-icon"><i class="fa-solid fa-play"></i></div>
+                <div class="selected-text-none"
+                     id="young-artist-text-card1"><strong>Selected</strong>
+                </div>
+            </div>
+
+            <div class="card"
+                 id="young-artist-card2"
+                 onclick="youngArtistFn('young-artist-card2','young-artist-text-card2')">
+                <img src="../assets/picture.png"
+                     class="card-image"
+                     alt=""
+                     height="200"
+                     width="200">
+                <p class="artist-name">Asharf</p>
+                <p class="song-name">
+                    <strong>Song -</strong>
+                    Shakira Shakira
+                </p>
+                <div class="play-icon"><i class="fa-solid fa-play"></i></div>
+                <div class="selected-text-none"
+                     id="young-artist-text-card2"><strong>Selected</strong>
+                </div>
+            </div>
+
+            <div class="card"
+                 id="young-artist-card3"
+                 onclick="youngArtistFn('young-artist-card3','young-artist-text-card3')">
+                <img src="../assets/picture.png"
+                     class="card-image"
+                     alt=""
+                     height="200"
+                     width="200">
+                <p class="artist-name">Asharf</p>
+                <p class="song-name">
+                    <strong>Song -</strong>
+                    Shakira Shakira
+                </p>
+                <div class="play-icon"><i class="fa-solid fa-play"></i></div>
+                <div class="selected-text-none"
+                     id="young-artist-text-card3"><strong>Selected</strong>
+                </div>
+            </div>
+
+            <div class="card"
+                 id="young-artist-card4"
+                 onclick="youngArtistFn('young-artist-card4','young-artist-text-card4')">
+                <img src="../assets/picture.png"
+                     class="card-image"
+                     alt=""
+                     height="200"
+                     width="200">
+                <p class="artist-name">Asharf</p>
+                <p class="song-name">
+                    <strong>Song -</strong>
+                    Shakira Shakira
+                </p>
+                <div class="play-icon"><i class="fa-solid fa-play"></i></div>
+                <div class="selected-text-none"
+                     id="young-artist-text-card4"><strong>Selected</strong>
+                </div>
+            </div>
+
+            <div class="card"
+                 id="young-artist-card5"
+                 onclick="youngArtistFn('young-artist-card5','young-artist-text-card5')">
+                <img src="../assets/picture.png"
+                     class="card-image"
+                     alt=""
+                     height="200"
+                     width="200">
+                <p class="artist-name">Asharf</p>
+                <p class="song-name">
+                    <strong>Song -</strong>
+                    Shakira Shakira
+                </p>
+                <div class="play-icon"><i class="fa-solid fa-play"></i></div>
+                <div class="selected-text-none"
+                     id="young-artist-text-card5"><strong>Selected</strong>
+                </div>
+            </div>
+        </div>
+        <div class="require-text-container">
+            <div class="required-text"
+                 id="young-artist-required-text">Please select at least one item from each category before submitting
+            </div>
+        </div>
+    </div>
+
+
+    <!--Button-->
+    <button type="button"
+            onclick="submitButton()"><strong>SUBMIT</strong></button>
+
+</main>
+
+
+<!--JavaScript-->
+<script src="main.js"></script>
+
+</body>
+</html>
