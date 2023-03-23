@@ -145,6 +145,7 @@ function submitButton() {
 Best Electronica Artist : ${selectedcard_electronica_artist}
 Best Best Music Video : ${selectedcard_music_video}
 Best Best Young Indie Artist : ${selectedcard_young_artist}`)
+        location.reload()
     } else {
         if (!selectedcard_rock_artist) {
             document.getElementById("container-border-rock-artist").classList.add("container-rock-artist");
