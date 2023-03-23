@@ -17,6 +17,14 @@ body {
     align-items: center;
 }
 
+.header {
+    margin-top: 3rem;
+    padding: 0 0.5rem;
+    border-right: 4px solid #3cbfaf;
+    border-left: 4px solid #3cbfaf;
+
+}
+
 .container {
     margin-top: 3rem;
     padding: 0 1rem 3rem;
